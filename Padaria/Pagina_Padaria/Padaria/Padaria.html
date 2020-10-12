@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="description" content="Site sobre uma padaria">
+        <meta name="keywords" content="café da manhã,pão doce,brioches,bolos,tortas,frios,pão francês,padaria,confeitaria">
+        <meta name="author" content="Debora Gabriel(1920478300069)">
+		<title>Bakery</title>
+	</head>
+	<style>
+		
+		body{
+			font-family:Verdana, Geneva, Tahoma, sans-serif;
+			font-size:small ;
+			margin:0 auto;
+            width: 1200px;
+			color:rgb(167, 32, 32);
+			background: rgb(247, 243, 192) url("imagens/FundoPagina.jpg") repeat;
+		}
+
+		header{
+			width: auto;
+			height: 300px;
+			text-align: center;
+		
+		}
+
+		header>img{
+			width: 200px;
+			height: 200px;
+			float: left;
+			margin-right: 90px;
+			margin-top:50px;
+		}
+
+		header{
+			margin-top: 10px;
+		}
+
+		.sobre{
+			padding: 10px;
+			margin-top: 20px;
+		}
+
+		.menu ul li{
+			display:inline;
+			position: relative;
+            bottom:0;
+            right:60px;
+			font-size: 18px;
+		}
+
+		.menu a{
+			color:rgb(47, 49, 49);
+		}
+
+		.menu a:visited{
+			color:brown;
+		}
+
+		.menu a:hover{
+			color:blue;
+		}
+
+		.menu a:active{
+			color: red;
+		}
+
+		.menu li{
+			margin: 20px;
+		}
+
+		figure{
+			text-align:center;
+		}
+
+		figure>img{
+			border: 2px solid coral;
+		}
+
+		p{
+			font-size: 1.2em;
+			text-align: justify;
+		}
+
+		h2{
+			padding: 10px;
+		}
+
+		table{
+          color:brown;
+          margin-bottom: 20px;
+          width: 100%;
+		}
+		
+		caption{
+		   font-size:1.6em;
+		   font-style: italic;
+		}
+		
+		table,th,td{
+          border: 1px solid brown;
+        }
+
+        td,th{
+		  padding: 10px;
+		  font-size: 1.2em;
+        }
+
+        td{
+           text-align: center;
+        }
+
+		section{
+			background: cornsilk;
+			border: 2px solid rgb(167, 32, 32);
+			margin-bottom: 10px;
+		}
+
+		.formulario{
+			height: 940px;
+		}
+
+		legend{
+			text-align: center;
+		}
+
+		input[type=button], input[type=submit], input[type=reset] {
+            border:1px solid brown;
+			display:inline-block;
+			color:brown;
+			font-size: 15px;
+            padding: 15px;
+			margin: 8px;
+			float:right;
+			margin-right: 270px;
+		}
+		
+		input[type=text]{
+			width: 400px;
+		}
+
+		footer{
+			width: auto;
+			height: 150px;
+			background: coral;
+			position: relative;
+            margin-top: 40px;
+			margin-bottom: 10px;
+		}
+		
+		.redessociais{
+			position:absolute;
+            bottom:0;
+            right:530px;
+
+		}
+
+		footer h3{
+			padding-top: 50px;
+		}
+		 
+		.redessociais ul li{
+			display:inline;
+			right: 90px;
+		}
+
+		.redessociais img{
+			width: 32px;
+            height: 32px;
+		}
+
+	</style>
+
+	<body>
+		<!--Imagine agora que a padaria ganhou notoriedade e você precisa aumentar o número de páginas para colocar serviços diferentes. 
+		Qual seria a sua alteração quanto à navegação e ao estilo? Justifique sua resposta.
+		Resposta:Quanto a navegação,eu transformaria cada link âncora do menu do header em página(arquivo) html e manteria o mesmo cabeçalho e
+		 rodapé.Apenas mudaria o conteúdo(miolo) e o estilo de cada página de acordo com as informações dadas. -->
+		<!--INICIO DO CABEÇALHO-->
+		<header>
+		  <img src="imagens/logo3.png" alt="logo da padaria">
+		  <nav class="menu">
+			<img src="./imagens/BannerPadaria1.png" width="75%">
+			<ul type="square">
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#produtos">Nossos Produtos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			  </ul>
+		  </nav>
+		</header>
+		<!--FIM DO CABEÇALHO-->
+
+		<!--SECÇÃO SOBRE-->
+		<section class="sobre">
+		  <h1 id="sobre">Seja bem vindo a nossa padaria!</h1>
+		  <p>Aqui preparamos diversos tipos de <em>pães, salgados e doces</em> para que você possa se deliciar! <br>
+		  Fazemos também cestas de café da manhã. Servimos café da manhã em nossa loja de acordo com sua preferência e montamos tábuas de frios.
+		  <br>Sinta-se à vontade para solicitar alterações e novas criações usando nossos produtos!</p>
+		  
+		  <figure>
+			  <img src="imagens/interiordapadaria.jpg" alt="interior da padaria" width="50%">
+			  <figcaption>Interior de nossa padaria</figcaption>
+		  </figure>
+
+		  <p><strong>Abaixo segue nosso cardápio básico.</strong></p>
+		</section>
+
+        <!--SECÇÃO TABELA DE PRODUTOS-->
+		<section>
+		  <h2 id="produtos">Nossos Produtos</h2>
+
+		  <table>
+			  <caption>Tabela</caption>
+			  <thead>
+				  <tr>
+					  <th>Nome</th>
+					  <th>Imagem</th>
+					  <th>Preço</th>
+					  <th>Descrição</th>
+				  </tr>
+			  </thead>
+			  <tbody>
+				  <tr>
+					  <th>Pão Brioche</th>
+					  <td><img src="imagens/PaoBrioche.jpg" alt="Pão brioche"></td>
+					  <td>R$ 2,00 a unidade</td>
+					  <td>Brioche é um pão de origem francesa, feito com alto teor de manteiga e ovo. 
+						É "leve e ligeiramente inchado, mais ou menos bem, de acordo com a proporção de manteiga e de ovos."</td>
+				  </tr>
+				  <tr>
+					<th>Pão Doce</th>
+					<td><img src="imagens/PaoDoce.jpg" alt="Pão doce"></td>
+					<td>R$ 7,00 a unidade</td>
+					<td>A receita varia conforme a região de origem. Nas padarias e confeitarias do Rio de Janeiro, 
+					o pão doce é extremamente comum e consiste em um pão de massa doce com creme de baunilha decorado 
+					com frutas em calda e cobertura de fondant e geleia de brilho.</td>
+				  </tr>
+				  <tr>
+					<th>Pão Francês</th>
+					<td><img src="imagens/PaoFrances.jpg" alt="Pão francês"></td>
+					<td>R$ 1,00 a unidade</td>
+					<td>O pão francês, também conhecido como pão cacetinho, pãozinho ou pão de sal,
+					 é um tipo de pão feito de farinha, sal, água e fermento.</td>
+				  </tr>
+				  <tr>
+					<th>Bolos e Tortas</th>
+					<td><img src="imagens/BolosTortas.jpg" alt="Bolos e tortas"></td>
+					<td>R$ 40,00 a unidade</td>
+					<td>Bolos e tortas decorados para todo tipo de festa.Temos os seguintes sabores:
+						Floresta Negra,Maracujá com chocolate,Chocolate Belga,Chantilly com Coco e Limão.</td>
+				  </tr>
+				  <tr>
+					<th>Frios</th>
+					<td><img src="imagens/Frios.jpg" alt="Frios"></td>
+					<td>R$ 30,00 a unidade</td>
+					<td>Bandeja de frios para sua reunião com presunto,salame, queijo muçarela peito de peru 
+					e queijo branco.</td>
+				  </tr>
+				  <tr>
+					<th>Café da Manhã Simples</th>
+					<td><img src="imagens/CafeManhaSimples.jpg" alt="café da manhã simples"></td>
+					<td>R$ 15,00 a unidade</td>
+					<td>Café da manhã simples com café,suco,pão com manteiga e ovos mexidos.</td>
+				  </tr>
+				  <tr>
+					<th>Café da Manhã Rebuscado</th>
+					<td><img src="imagens/CafeManhaRebuscado.jpg" alt="café da manhã rebuscado"></td>
+					<td>R$ 25,00 a unidade</td>
+					<td>Café da Manhã Rebuscado com 2 brioches,café,suco,3 tipos de frutas e geleia 
+						e frios de sua preferência.</td>
+				  </tr>
+				  <tr>
+					<th>Cesta de Café da Manhã</th>
+					<td><img src="imagens/CestaCafeManha1.jpg" alt="cesta de café da manhã"></td>
+					<td>R$ 50,00 a unidade</td>
+					<td>Em nossa cesta de café da manhã temos: 5 pães franceses,5 brioches, biscoitos,
+						café solúvel,café cappuccino,suco de fruta natural,geleia,manteiga,açúcar e adoçante.</td>
+				  </tr>
+				  
+			  </tbody>
+		  </table>
+		</section>
+
+		<!--SECÇÃO FORMULÁRIO-->
+		<section class="formulario">
+		  <h2 id="contato">Contate-nos!</h2>
+		  <p>Para entrar em contato conosco, preencha o formulário abaixo:</p>
+		  
+		  <form>
+		  <fieldset>
+
+		  <legend>Dados Pessoais</legend>
+		  <p>
+		  <label for="nome">Nome Completo </label><br>
+		  <input type="text" name="nome" id="nome" />
+		  </p>
+		  
+		  <p>
+		  <label for="endereço">Endereço </label><br>
+		  <input type="text" name="endereço" id="endereço" />
+		  </p>
+
+		  <p>
+			<label for="telefone">Telefone </label><br>
+			<input type="text" name="telefone" id="telefone" />
+			</p>
+		  </fieldset>
+		  
+		  <p>&nbsp;</p>
+		  
+
+		<fieldset>
+
+		<legend>Faça sua escolha!</legend>
+		<p>
+		<input type="checkbox" id="produto1" name="produto1" value="bolosetortas">
+		<label for="produto1"> Bolos e Tortas</label><br>
+		<input type="checkbox" id="produto2" name="produto2" value="pao">
+		<label for="produto2"> Pão Francês</label><br>
+		<input type="checkbox" id="produto3" name="produto3" value="brioche">
+		<label for="produto3"> Pão Brioche</label><br>
+		<input type="checkbox" id="produto4" name="produto4" value="paodoce">
+		<label for="produto4"> Pão Doce</label><br>
+		<input type="checkbox" id="produto5" name="produto5" value="frios">
+		<label for="produto5"> Bandeja de Frios</label><br>
+		<input type="checkbox" id="produto6" name="produto6" value="cafesimples">
+		<label for="produto6"> Café da manhã simples</label><br>
+		<input type="checkbox" id="produto7" name="produto7" value="caferebuscado">
+		<label for="produto7"> Café da manhã rebuscado</label><br>
+		<input type="checkbox" id="produto8" name="produto8" value="cesta">
+		<label for="produto8"> Cesta de café da manhã</label><br><br>
+		</p>
+	
+		<p>
+		Qual a sua opção? <br>
+		<input type="radio" name="opcao" value="delivery" id="delivery" />
+		<label for="delivery">Delivery</label>
+		<br>
+		<input type="radio" name="opcao" value="retirada" id="retirada" />
+		<label for="retirada">Retirar na loja</label>
+		<br>
+		<input type="radio" name="opcao" value="loja" id="loja" />
+		<label for="loja">Consumir na loja</label>
+		</p>
+		  
+	
+		<p>
+		<label for="mensagem">Mensagem: </label>
+		<br />
+		<textarea cols="50" rows="5" name="mansagem" id="mensagem"></textarea>
+		</p> 
+		</fieldset>
+
+		<p>&nbsp;</p>
+
+        <p>
+        <input type="reset" name="Submit2" value="limpar dados" />
+        </p>
+
+        <p>
+        <input type="submit" name="Submit" value="Enviar formulário" />
+        </p>
+		  
+		</form>  
+		</section>
+
+	    <!--RODAPÉ-->
+		<footer>
+			<h3 style="text-align: center;">&copy;Bakery  2020 - Direitos Registrados - Rio de Janeiro/RJ </h3> 
+			<nav class="redessociais">
+				<ul type="square">
+				  <li><a href="https://www.facebook.com/"><img src="Icones_Sociais/facebook.png" alt="facebook"></a></li>
+				  <li><a href="https://www.instagran.com/"><img src="Icones_Sociais/instagran.png" alt="instagran"></a></li>
+				  <li><a href="https://www.twitter.com/"><img src="Icones_Sociais/twitter.png" alt="twitter"></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
+		
