@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Site Atelie Cores e Panos da artesã Maya Fernandes">
+        <meta name="keywords" content="artesanato,croche,feltro,tapete,bonecas de pano">
+		<meta name="author" content="Debora Gabriel(1920478300069)">
+		<title>Atelie Cores e Panos</title>
+	</head>
+	<style>
+		body{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: medium;
+         margin:0 auto;
+         width: 1200px;
+         background: rgb(150, 213, 241) url("Imagens/fundo_pagina2.jpg") repeat;
+    
+        }
+
+        header{
+         width: auto;
+         height: 250px;
+         background-color: lightcyan;
+         margin-top: 10px;
+        }
+		/*Imagem do logo*/
+		header>img{
+		width: 240px;
+		height: 240px;
+		float: left;
+		margin-right: 90px;
+		position: relative;
+
+		}
+
+		.menu ul li{
+			display:inline;
+			position: relative;
+			top:100px;
+			right:-80px;
+			font-size: 1.3em;
+			
+		}
+
+		.menu li{
+			margin: 40px;
+		}
+
+		.menu a{
+		color:lightpink;
+		}
+
+		.menu ul a{
+			text-decoration-color:lightpink;
+		}
+
+		.menu a:hover {
+		color:rgb(226, 63, 144);
+		}
+
+		.menu a:active {
+		color:rgb(125, 91, 218);
+		}
+
+		article,header,footer{
+			border:2px solid pink;
+			border-radius: 10px;
+			margin-top: 20px;
+		}
+
+		p,h2,h3{
+			font-size: 1.2em;
+			color:darkslategrey;
+		}
+
+		h2{
+			font-size: 1.8em;
+		}
+
+		p,h2{
+			padding-left: 10px;
+		}
+
+		h1{
+			font-size: 2.8em;
+			color:lightpink;
+			font-style: italic;
+			position: relative;
+			top:50px;
+			right:-80px;
+			font-family:cursive;
+			margin-bottom: 20px;
+
+		}
+
+		.sobre ul li{
+			position: relative;
+			display: inline-block;
+			margin-left: 30px;
+			
+		}
+
+		.sobre img{
+			width: 420px;
+			height: 300px;
+			border: 2px solid lightskyblue;
+		}
+
+		.sobre figure figcaption{
+			text-align: center;
+			font-size: 1.2em;
+			color:darkslategrey;
+		}
+
+		.produtos ul li{
+			position: relative;
+			display: inline-block;
+
+		}
+
+		.produtos ul li h4{
+			text-align: center;
+			font-size: 1.2em;
+			color:darkslategrey;
+
+		}
+
+		.produtos img{
+			width: 480px;
+			height: 400px;
+			border: 2px solid lightskyblue;
+
+		}
+
+		.produtos figure figcaption{
+			text-align: center;
+			font-size: 1.2em;
+			color:darkslategrey;
+			background-color:  rgb(176, 240, 240);
+		}
+
+		.produtos table{
+			float:center;
+			text-align: justify;
+			font-size: 1.2em;
+			color:darkslategrey;
+			margin: 50px 30px 50px 30px;
+			width: 95%;
+			
+		}
+
+		.produtos table,th,td{
+			border: 1px solid rgb(176, 240, 240);
+		}
+
+		.produtos table td,th{
+		  padding: 10px;
+		}
+
+		.produtos table td{
+		  text-align:center;
+		}
+
+		.produtos table thead{
+			font-size: 1.4em;
+			text-align:center;
+		}
+
+		.produtos table tr:hover{
+			background-color: rgb(243, 192, 200);
+		}
+
+		.formulario{
+			height: 720px;
+		}
+
+		.formulario p{
+			text-align: center;
+		}
+
+		.formulario textarea{
+			color:lightslategray;
+			border: 2px solid lightcoral;
+			border-radius: 3px;
+
+		}
+
+		legend{
+			text-align: center;
+		}
+
+		input[type=button], input[type=submit], input[type=reset] {
+			border:2px solid lightcoral;
+			border-radius: 3px;
+			display:inline-block;
+			color:lightslategray;
+			font-size: 15px;
+			padding: 10px;
+			margin: 8px;
+			float: right;
+			margin-right: 250px;
+
+		}
+
+		input[type=text]{
+			width: 550px;
+			color:lightslategray;
+			border: 2px solid lightcoral;
+			border-radius: 3px;
+		}
+
+		input[type=reset], input[type=submit]{
+			margin-left: 160px;
+			
+		}
+
+
+		footer{
+			width: auto;
+			height: 150px;
+			background-color: lightcyan;
+			position: relative;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			clear: both;
+		}
+
+		.redessociais{
+			position:absolute;
+			bottom:0;
+			right:530px;
+
+		}
+
+		footer h3{
+			padding-top: 50px;
+		}
+		
+		.redessociais ul li{
+			display:inline;
+			right: 90px;
+		}
+
+		.redessociais img{
+			width: 32px;
+			height: 32px;
+		}
+
+	</style>
+	
+	<body>
+		
+		<!--INICIO DO CABEÇALHO-->
+		<header>
+		  <img src="Imagens/logo.png" alt="logo do atelie">
+		  <h1>De Maya Fernandes</h1>
+		  <nav class="menu">
+			<ul type="square">
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#produtos">Produtos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			  </ul>
+		  </nav>
+		</header>
+		<!--FIM DO CABEÇALHO-->
+
+        <!-- INICIO DO ARTIGO -->
+        <article style="background: floralwhite;">
+
+			<section class="sobre">
+				<h2 id="sobre">Seja bem vindo ao mundo do artesanato!</h2>
+				<p>O atelie Cores & Panos foi idealizado há mais de 15 anos atrás pela artesã <strong>Maya Fernandes</strong> e se localiza na cidade de Campinas SP.</p>
+				<p>Maya produz vários produtos com diferentes tipos de material como: crochê, pano e feltro.</p>
+				
+				<ul>
+					<li>
+						<figure>
+							<img src="Imagens/atelie.jpg" alt="interior do atelie">
+							<figcaption>Atelie</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="Imagens/Tapete.jpg" alt="Maya bordando um tapete">
+							<figcaption>Maya bordando um tapete</figcaption>
+						</figure>
+
+					</li>
+					
+				</ul>
+					
+			</section>
+			
+			<!--INICIO DA SEÇÃO PRODUTOS-->
+            <section class="produtos" >
+			  <h2 id="produtos">Veja nossos trabalhos!</h2>
+			  <p>Também trabalhamos sob encomenda.</p>
+              <ul>
+				<li>
+					<figure>
+					  <img src="Imagens/bonecadepano.png" alt="boneca de pano">
+					  <figcaption>Boneca de Pano.</figcaption>
+					</figure>
+				
+				</li>
+				
+				<li>
+					<figure>
+					  <img src="Imagens/boneca-de-feltro-19.jpg" alt="boneca de feltro" >
+					  <figcaption>Boneca de Feltro</figcaption>
+					</figure>
+				
+				</li>
+				
+				<li>
+					<figure>
+					  <img src="Imagens/dragoes_feltro.jpg" alt="Dragões de feltro">
+					  <figcaption>Dragões de Feltro.</figcaption>
+					</figure>
+				
+				</li>
+				
+				<li>
+					<figure>
+					  <img src="Imagens/casaquinho_crochecompala.jpg" alt="Casaquinho de crochê ">
+					  <figcaption>Casaquinho de crochê para recém-nascido de 0 a 5 meses.</figcaption>
+					</figure>
+				
+				</li>  
+				
+				<li>
+					<figure>
+					  <img src="Imagens/conjunto_cozinha.jpg" alt="conjunto para cozinha">
+					  <figcaption>Conjunto para Cozinha.</figcaption>
+					</figure>
+				
+				</li> 
+				
+				<li>
+					<figure>
+					  <img src="Imagens/Tolhademesa1-300x300.png" alt="Toalha de mesa">
+					  <figcaption>Toalha de Mesa de crochê.</figcaption>
+					</figure>
+				</li>
+				
+				<li>
+					<figure>
+					  <img src="Imagens/sapatinhos-de-feltro.jpg" alt="sapatinho de feltro">
+					  <figcaption>Sapatinho de Feltro.</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<figure>
+					  <img src="Imagens/unicornio_croche.jpg" alt="unicornio de crochê">
+					  <figcaption >Unicornio de Crochê.</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<figure>
+					  <img src="Imagens/india_feltro.jpg" alt="india de feltro">
+					  <figcaption >Índia de Feltro.</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<figure>
+					  <img src="Imagens/chaveiro-feltro.jpg" alt="chaveiro de feltro">
+					  <figcaption >Chaveiro de Feltro</figcaption>
+					</figure>
+				</li>
+		     </ul> 
+		   
+		     <table style="border: 2px solid lightskyblue;">
+			  <caption>Tabela de Preços</caption>
+			  <thead>
+				<tr>
+					<th>Produto</th>
+					<th>Preço</th>
+					<th>Descrição</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+					<th>Boneca de Pano</th>
+					<td>R$ 60,00</td>
+					<td>Em cores variadas.</td>
+				</tr>
+				<tr>
+					<th>Bonecas Heroínas de Feltro</th>
+					<td>R$ 45,00</td>
+					<td>Temos Mulher-Maravilha,Mulher-Gato e Super-Girl.</td>
+				</tr>
+				<tr>
+					<th>Dragões de Feltro</th>
+					<td>R$ 40,00</td>
+					<td>Temos cores variadas.</td>
+				</tr>
+				<tr>
+					<th>Casaquinho de Crochê.</th>
+					<td>R$ 35,00</td>
+					<td>Para recém-nascido de 0 a 5 meses.</td>
+				</tr>
+				<tr>
+					<th>Conjunto de crochê para cozinha</th>
+					<td>R$ 80,00</td>
+					<td>Nas cores: bege,azul e amarelo.</td>
+				</tr>
+				<tr>
+					<th>Toalha de mesa de crochê</th>
+					<td>R$ 50,00</td>
+					<td>Tamanhos variados.</td>
+				</tr>
+				<tr>
+					<th>Sapatinho de Feltro</th>
+					<td>R$ 30,00</td>
+					<td>Para recém-nascido de 0 a 6 meses.</td>
+				</tr>
+				<tr>
+					<th>Unicónio de crochê</th>
+					<td>R$ 50,00</td>
+					<td>em cores variadas.</td>
+				</tr>
+				<tr>
+					<th>Índia de feltro</th>
+					<td>R$ 50,00</td>
+					<td>Em cores variadas.</td>
+				</tr>
+				<tr>
+					<th>Chaveiro de Feltro</th>
+					<td>R$ 30,00</td>
+					<td>Temos também corujas e gatos.</td>
+				</tr>
+						
+			  </tbody>
+			
+		     </table>
+            </section>
+
+			<!--INICIO DA SEÇÃO FORMULÁRIO-->
+			<section class="formulario">
+				<h2 id="contato">Contate-nos!</h2>
+                <p>Para entrar em contato conosco, preencha o formulário abaixo:</p>
+		  
+		        <form>
+		        <fieldset>
+
+		        <legend>Dados Pessoais</legend>
+		        <p>
+		        <label for="nome">Nome Completo </label><br>
+		        <input type="text" name="nome" id="nome" />
+		        </p>
+		  
+		        <p>
+		        <label for="email">E-mail </label><br>
+		        <input type="text" name="email" id="email" />
+		        </p>
+
+		        <p>
+			    <label for="telefone">Telefone </label><br>
+			    <input type="text" name="telefone" id="telefone" />
+			    </p>
+		        </fieldset>
+		  
+				<p>&nbsp;</p>
+				<p>
+				<label for="mensagem">Mensagem: </label>
+				<br />
+				<textarea cols="50" rows="10" name="mansagem" id="mensagem"></textarea>
+				</p> 
+				</fieldset>
+			
+				<p>&nbsp;</p>
+			
+				<p>
+				<input type="reset" name="Submit2" value="Limpar dados" />
+				</p>
+			
+				<p>
+				<input type="submit" name="Submit" value="Enviar formulário" />
+				</p>
+            </section>
+		</article>
+		
+
+	    <!--RODAPÉ-->
+		<footer>
+			<h3 style="text-align: center;">&copy;Atelie Cores & Panos  2020 - Direitos Registrados - São Paulo/SP </h3> 
+			<nav class="redessociais">
+				<ul type="square">
+				  <li><a href="https://www.facebook.com/"><img src="Icones_Sociais/facebook.png" alt="facebook"></a></li>
+				  <li><a href="https://www.instagran.com/"><img src="Icones_Sociais/instagran.png" alt="instagran"></a></li>
+				  <li><a href="https://www.twitter.com/"><img src="Icones_Sociais/twitter.png" alt="twitter"></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
+		
