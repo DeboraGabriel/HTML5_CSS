@@ -1,2 +1,2 @@
-# HTML5_CSS
- Minhas páginas WEB
+# Páginas WEB
+ One pages in HTML5 e CSS
