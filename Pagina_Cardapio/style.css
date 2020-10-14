@@ -1,0 +1,210 @@
+body{
+    color:#333333;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    width: 1200px;
+    
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(165,42,42);
+    text-indent: 1.0em;
+}
+
+p a{
+    color: rgb(165,42,42);
+}
+
+p a:hover{
+    color:rgb(220,20,60);
+}
+h1{
+    background-color: rgb(255,248,220);
+    margin-bottom: 80px;
+}
+
+h2{
+    color:rgb(165,42,42);
+}
+
+
+h3{
+    text-align: center;
+    color: darkorange;
+}
+
+h4{
+    position: relative;
+    text-align: center;
+    color:rgb(165,42,42);
+}
+
+h5{
+    color:rgb(165,42,42);
+}
+
+.menu-opcoes{
+   position:absolute;
+   bottom:0;
+   right:320px;
+}
+
+.menu-opcoes ul {
+   font-size:20px;
+}
+
+.menu-opcoes ul li{
+   display:inline;
+   margin-left:30px;
+   border: 3px medium;
+   box-shadow: 0px 3px 0px 3px rgb(255,140,0);
+   border-radius: 0px 3px 0px 3px;
+   border-color: rgb(255,248,220);
+   background-color: rgb(255,248,220);
+}
+
+.menu-opcoes a{
+  color:rgb(165,42,42);
+}
+
+.menu-opcoes ul a{
+    text-decoration-color: rgb(255,248,220);
+}
+
+.menu-opcoes a:hover {
+  color:rgb(220,20,60);
+}
+
+.menu-opcoes a:active {
+  color:rgb(255,140,0);
+}
+
+header{
+  position:relative;
+}
+
+.entradas ul li{
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.entradas img{
+    width: 420px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.entradas figure figcaption{
+    text-align: center;
+    color:rgb(165,42,42);
+    background-color:rgb(255,248,220);
+}
+
+.pratos-principais ul li{
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.pratos-principais img{
+    width: 420px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.pratos-principais figure figcaption{
+    text-align: center;
+    color:rgb(165,42,42);
+    background-color:rgb(255,248,220);
+}
+ 
+.pratos-vegetarianos ul li{
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.pratos-vegetarianos img{
+    width: 420px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.pratos-vegetarianos figure figcaption{
+    text-align: center;
+    color:rgb(165,42,42);
+    background-color:rgb(255,248,220);
+}
+
+.bebidas table{
+    float:center;
+    text-align: justify;
+    font-size: 1.2em;
+    color:rgb(165,42,42);
+    margin: 50px 30px 50px 30px;
+    width: 95%;
+    
+}
+
+.bebidas table,th,td{
+    border: 1px solid rgb(165,42,42);
+}
+
+.bebidas table td,th{
+  padding: 10px;
+}
+
+.bebidas table td {
+  text-align:center;
+}
+
+.bebidas table thead{
+    font-size: 1.4em;
+    text-align:center;
+}
+
+.sobremesas ul li{
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;    
+}
+
+.sobremesas img{
+    width: 420px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.sobremesas figure figcaption{
+    text-align: center;
+    color:rgb(165,42,42);
+    background-color:rgb(255,248,220);
+} 
+        
+footer{
+    position: relative;
+    margin-top: 80px;
+}
+
+.menu-redes{
+    position:absolute;
+    bottom:0;
+    right:530px;
+}
+
+.menu-redes ul li{
+    display:inline;
+    margin-left:20px;
+}
+
+.menu-redes img{
+    width: 32px;
+    height: 32px;
+}
