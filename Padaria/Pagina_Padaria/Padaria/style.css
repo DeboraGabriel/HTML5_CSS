@@ -1,0 +1,167 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small ;
+    margin:0 auto;
+    width: 1200px;
+    color:rgb(167, 32, 32);
+    background: rgb(247, 243, 192) url("imagens/FundoPagina.jpg") repeat;
+}
+
+header{
+    width: auto;
+    height: 300px;
+    text-align: center;
+
+}
+
+header>img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 90px;
+    margin-top:50px;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.sobre{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.menu ul li{
+    display:inline;
+    position: relative;
+    bottom:0;
+    right:60px;
+    font-size: 18px;
+    padding: 80px;
+}
+
+.menu a:link {
+    color:rgb(165,42,42);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menu a:visited{
+    color:rgb(165,42,42);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:rgb(85, 43, 5);
+    text-decoration: underline;
+}
+
+.menu a:active{
+    color: red;
+    text-decoration: underline;
+}
+
+.menu li{
+    margin: 20px;
+}
+
+figure{
+    text-align:center;
+}
+
+figure>img{
+    border: 2px solid coral;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+h2{
+    padding: 10px;
+}
+
+table{
+  color:brown;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+caption{
+   font-size:1.6em;
+   font-style: italic;
+}
+
+table,th,td{
+  border: 1px solid brown;
+}
+
+td,th{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+td{
+   text-align: center;
+}
+
+section{
+    background: cornsilk;
+    border: 2px solid rgb(167, 32, 32);
+    margin-bottom: 10px;
+}
+
+.formulario{
+    height: 940px;
+}
+
+legend{
+    text-align: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    border:1px solid brown;
+    display:inline-block;
+    color:brown;
+    font-size: 15px;
+    padding: 15px;
+    margin: 8px;
+    float:right;
+    margin-right: 270px;
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+footer{
+    width: auto;
+    height: 150px;
+    background: coral;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.redessociais{
+    position:absolute;
+    bottom:0;
+    right:530px;
+
+}
+
+footer h3{
+    padding-top: 50px;
+}
+ 
+.redessociais ul li{
+    display:inline;
+    right: 90px;
+}
+
+.redessociais img{
+    width: 32px;
+    height: 32px;
+}

@@ -4,185 +4,19 @@
 		<meta charset = "UTF-8">
 		<meta name="description" content="Site sobre uma padaria">
         <meta name="keywords" content="café da manhã,pão doce,brioches,bolos,tortas,frios,pão francês,padaria,confeitaria">
-        <meta name="author" content="Debora Gabriel(1920478300069)">
+		<meta name="author" content="Debora Gabriel">
+		<link rel="stylesheet" href="style.css">
 		<title>Bakery</title>
 	</head>
-	<style>
-		
-		body{
-			font-family:Verdana, Geneva, Tahoma, sans-serif;
-			font-size:small ;
-			margin:0 auto;
-            width: 1200px;
-			color:rgb(167, 32, 32);
-			background: rgb(247, 243, 192) url("imagens/FundoPagina.jpg") repeat;
-		}
-
-		header{
-			width: auto;
-			height: 300px;
-			text-align: center;
-		
-		}
-
-		header>img{
-			width: 200px;
-			height: 200px;
-			float: left;
-			margin-right: 90px;
-			margin-top:50px;
-		}
-
-		header{
-			margin-top: 10px;
-		}
-
-		.sobre{
-			padding: 10px;
-			margin-top: 20px;
-		}
-
-		.menu ul li{
-			display:inline;
-			position: relative;
-            bottom:0;
-            right:60px;
-			font-size: 18px;
-		}
-
-		.menu a{
-			color:rgb(47, 49, 49);
-		}
-
-		.menu a:visited{
-			color:brown;
-		}
-
-		.menu a:hover{
-			color:blue;
-		}
-
-		.menu a:active{
-			color: red;
-		}
-
-		.menu li{
-			margin: 20px;
-		}
-
-		figure{
-			text-align:center;
-		}
-
-		figure>img{
-			border: 2px solid coral;
-		}
-
-		p{
-			font-size: 1.2em;
-			text-align: justify;
-		}
-
-		h2{
-			padding: 10px;
-		}
-
-		table{
-          color:brown;
-          margin-bottom: 20px;
-          width: 100%;
-		}
-		
-		caption{
-		   font-size:1.6em;
-		   font-style: italic;
-		}
-		
-		table,th,td{
-          border: 1px solid brown;
-        }
-
-        td,th{
-		  padding: 10px;
-		  font-size: 1.2em;
-        }
-
-        td{
-           text-align: center;
-        }
-
-		section{
-			background: cornsilk;
-			border: 2px solid rgb(167, 32, 32);
-			margin-bottom: 10px;
-		}
-
-		.formulario{
-			height: 940px;
-		}
-
-		legend{
-			text-align: center;
-		}
-
-		input[type=button], input[type=submit], input[type=reset] {
-            border:1px solid brown;
-			display:inline-block;
-			color:brown;
-			font-size: 15px;
-            padding: 15px;
-			margin: 8px;
-			float:right;
-			margin-right: 270px;
-		}
-		
-		input[type=text]{
-			width: 400px;
-		}
-
-		footer{
-			width: auto;
-			height: 150px;
-			background: coral;
-			position: relative;
-            margin-top: 40px;
-			margin-bottom: 10px;
-		}
-		
-		.redessociais{
-			position:absolute;
-            bottom:0;
-            right:530px;
-
-		}
-
-		footer h3{
-			padding-top: 50px;
-		}
-		 
-		.redessociais ul li{
-			display:inline;
-			right: 90px;
-		}
-
-		.redessociais img{
-			width: 32px;
-            height: 32px;
-		}
-
-	</style>
 
 	<body>
-		<!--Imagine agora que a padaria ganhou notoriedade e você precisa aumentar o número de páginas para colocar serviços diferentes. 
-		Qual seria a sua alteração quanto à navegação e ao estilo? Justifique sua resposta.
-		Resposta:Quanto a navegação,eu transformaria cada link âncora do menu do header em página(arquivo) html e manteria o mesmo cabeçalho e
-		 rodapé.Apenas mudaria o conteúdo(miolo) e o estilo de cada página de acordo com as informações dadas. -->
+		
 		<!--INICIO DO CABEÇALHO-->
 		<header>
-		  <img src="imagens/logo3.png" alt="logo da padaria">
+		  <img src="imagens/logo3.png" alt="logo da padaria"><!--Imagem do logo-->
 		  <nav class="menu">
 			<img src="./imagens/BannerPadaria1.png" width="75%">
-			<ul type="square">
+			<ul>
 				<li><a href="#sobre">Sobre</a></li>
 				<li><a href="#produtos">Nossos Produtos</a></li>
 				<li><a href="#contato">Contato</a></li>
