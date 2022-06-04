@@ -1,2 +1,2 @@
-# Páginas WEB(HTML5 CSS3 Java Script)
+# Páginas WEB(HTML5 e CSS3)
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
